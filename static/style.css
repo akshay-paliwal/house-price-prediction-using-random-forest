@@ -1,0 +1,192 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(241, 239, 239);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    top: 0px;
+    align-items: center;
+    position: sticky;
+    background-color: #27276b;  
+}
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 1px 10px 0px 12px;
+}
+#logo img{
+    height: 45px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+.navbar{
+    position: sticky;
+}
+.navbar ul{
+    display: flex;
+}
+.menu{
+    display: none;
+}
+
+.navbar ul li{ 
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.navbar ul li a{
+    color: #cacaf8;
+    display: block;
+    font-weight: bold;
+    padding: 3px 25px;
+    margin: 2px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 3px;
+    height: 610px ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+}
+
+/* Photo section */
+.photo{
+    padding: 2px 20px;
+    margin: 2px 30px;
+}
+.data img{
+    height: 400px;
+}
+
+
+/* Introduction */
+.summary{
+    align-items: center;
+    padding: 37px 2px;
+    margin: 2px 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text{
+    color: rgb(202, 202, 202);
+    font-size: 1.5rem;
+}
+/* Architecture */
+#archi{
+    background-color: rgb(151, 150, 150);
+    height: 610px;
+
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pic{
+    height: 580px;
+    width: 500px;
+    padding: 14px 56px;
+    margin: 2px 38px;
+
+}
+/* Prediction */
+#prediction{
+    height: 610px ;
+    background-color: rgb(26, 26, 26);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 12px;
+    margin: 0px 12px;
+}
+input{
+    height: 33px;
+    color: black;
+    width: 550px;
+    padding: 4px 21px;
+    text-align: center;
+    font-size: 110%;
+    margin: 4px 12px;
+    border-radius: 10px;
+}
+button{
+    background-color: grey; 
+    height:40px; 
+    margin: 20px 12px;  
+    width:150px;
+    font-size: medium;
+    border: 3px solid white; 
+    border-radius: 5px; 
+    color: black;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 12px;
+    margin: 2px 12px;
+}
+
+
+/* footer */
+footer{
+    text-align: center;
+    background-color:rgb(41, 41, 41) ;
+}
+/* Utilities */
+.h-prim{
+    font-size: 3.0rem;
+    padding: 20px 10px;
+    font-weight: lighter;
+    color: rgb(151, 150, 150);
+}
+
+.h-sec{
+    font-size: 2.2rem;
+    padding: 12px;
+    color: rgb(151, 150, 150);
+}
+.h{
+    font-size: 2.8rem;
+    padding: 34px 75px 3px 1px;
+    margin: 42px 17px;
+    color: rgb(26, 26, 26);
+}
+.heading{
+    padding:75px 20px;
+    margin: 2px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    font-weight: bold;
+}
+a:hover{
+    font-size: 1.3rem;
+    transition: .5s;
+    font-weight: bolder;
+}
+h3{
+    font-size: 1.8rem;
+}
+

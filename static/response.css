@@ -1,0 +1,82 @@
+/* Navigaion Bar */
+.navbar{
+    flex-direction: column;
+}
+#logo img{
+    height: 40px;
+}
+.navbar ul li{ 
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    padding: 0px 15px;
+    margin: 2px 9px;
+}
+
+/* Home Section */
+#home{
+    flex-direction: column;
+    padding: 100px 3px;
+    height: 510px ;
+}  
+
+/* Photo section */
+.photo{
+    padding: 2px 20px;
+    margin: 2px 30px;
+}
+.data img{
+    height: 190px;
+    margin: 21px 2px;
+}
+
+/* Introduction */
+.text{
+    font-size: 1.3rem;
+}
+
+/* Architecture */
+#archi{
+    height: 540px;
+}
+.item{
+    flex-direction: column;
+    align-items: center;
+}
+.pic{
+    height: 400px;
+    width: 300px;
+}
+
+/* Prediction */
+#prediction{
+    height: 500px ;
+}
+input{
+    height: 28px;
+    color: black;
+    width: 300px;
+}
+.items{
+    padding: 20px 12px;
+}
+
+
+/* Utilities */
+.h-prim{
+    font-size: 2.4rem;
+}
+.h{
+    font-size: 2.4rem;
+    padding: 0px 42px 3px 1px;
+    margin: 15px 17px;
+
+}
+a:hover{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    transition: .5s;
+}
+h3{
+    font-size: 1.8rem;
+}

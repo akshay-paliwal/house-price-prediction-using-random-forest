@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" media="screen and (max-width: 1100px)" href="/static/response.css">
+<body>
+    <nav class="navbar">
+        <div id="logo">
+            <img src="/static/logo.png" alt="MyOnlineMeal.com">
+        </div>
+        <ul class="list">
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#archi">Architecture</a></li>
+            <li class="item"><a href="#prediction">Application</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="photo">
+            <div class="data">
+                <img src="/static/image.png" alt="Photo">
+            </div>
+        </div>
+        <div class="summary">
+            <div class="obj">
+                <h2  class="h-prim">Introduction</h2>
+                <p class="text">This is one of my Machine Learning projects from Machine Learning and Deep Learning with Deployment course, from iNeuron.ai. In this project,the code was written to predict the price of a house based on the parameters given by the user, using a pre-trained Machine Learning(Random Forest Regressor) model. The code is written to take the parameters from the user through an HTML form, use the obtained data to predict the house price, and display the predicted price to the user. The code for the whole project can be found <a href="https://github.com/akshay-paliwal/house-price-prediction-using-random-forest/blob/master/README.md" target="_blank">here</a>.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="archi">
+        <div>
+            <div class="item">
+                <h2 class="h">Application Architecture</h2>
+                <img class="pic" src="/static/archi.png" alt="Photo">
+            </div>
+        </div>
+    </section>
+    
+    <section id="prediction">
+        <form class="form" action="/predict" method="POST"><br>
+            <h1 class = "h-prim head" >Predict Your House Price</h1>
+            <div class="items">
+               <input  type = "text" placeholder ="Enter nitric oxides concentration..." name="nox">
+               <input  type = "text" placeholder ="Enter average number of rooms per dwelling..." name="rm">
+               <input  type = "text" placeholder ="Enter full-value property-tax rate per $10,000..." name="tax">
+               <input  type = "text" placeholder ="Enter pupil-teacher ratio by town..." name="ptratio">
+               <input  type = "text" placeholder ="Enter  % lower status of the population..." name="lstat">
+               <button type = "submit" value="Submit"><b>Predict</b></button>
+            </div>
+        </form>
+    </section>
+
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.AkshayPaliwal.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+</html>
