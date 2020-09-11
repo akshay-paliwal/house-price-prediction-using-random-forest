@@ -4,7 +4,8 @@ House Price Prediction with Deployment
 ## Introduction
 This is one of my Machine Learning projects from [Machine Learning and Deep Learning with Deployment](https://academy.ineuron.ai/machine-learning-masters.php) course, from [iNeuron.ai](https://academy.ineuron.ai/index.php). In this project,the code was written to predict the price of a house based on the parameters given by the user, using a pre-trained Machine Learning(orest Regressor) model. The code needs to take the parameters from the user through an HTML form, use the obtained data to predict the house price, and display the predicted price to the user using another HTML page.
 
-**Random Forest Regressor -**  
+**Random Forest Regressor -** Random forest is a Supervised Learning algorithm which uses ensemble learning method for classification and regression.
+Random forest is a bagging technique. The trees in random forests are run in parallel. There is no interaction between these trees while building the trees. A random forest is a meta-estimator (i.e. it combines the result of multiple predictions) which aggregates many decision trees.
 
 ## Install
 This project requires Python3. Also, some of the python libraries like Flask, and pickle(pre-installed with python).
